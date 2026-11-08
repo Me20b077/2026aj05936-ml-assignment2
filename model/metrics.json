@@ -1,0 +1,75 @@
+{
+  "dataset": "Telco Customer Churn (Kaggle: blastchar/telco-customer-churn)",
+  "random_state": 5936,
+  "sklearn_version": "1.9.1",
+  "train_rows": 5634,
+  "test_rows": 1409,
+  "selection_metric": "f1",
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.3,
+      "class_weight": "balanced"
+    },
+    "Decision Tree": {
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "KNN": {
+      "n_neighbors": 61,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1.0
+    },
+    "Support Vector Machine": {
+      "C": 0.3,
+      "class_weight": "balanced",
+      "gamma": 0.1
+    }
+  },
+  "test_metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.7622,
+      "AUC": 0.8486,
+      "Precision": 0.5356,
+      "Recall": 0.7834,
+      "F1": 0.6363,
+      "MCC": 0.4875
+    },
+    "Decision Tree": {
+      "Accuracy": 0.748,
+      "AUC": 0.8202,
+      "Precision": 0.5171,
+      "Recall": 0.7701,
+      "F1": 0.6187,
+      "MCC": 0.4607
+    },
+    "KNN": {
+      "Accuracy": 0.7928,
+      "AUC": 0.8429,
+      "Precision": 0.6178,
+      "Recall": 0.5749,
+      "F1": 0.5956,
+      "MCC": 0.457
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.7523,
+      "AUC": 0.8327,
+      "Precision": 0.5217,
+      "Recall": 0.8021,
+      "F1": 0.6322,
+      "MCC": 0.482
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.7991,
+      "AUC": 0.8324,
+      "Precision": 0.6194,
+      "Recall": 0.631,
+      "F1": 0.6252,
+      "MCC": 0.488
+    }
+  }
+}
