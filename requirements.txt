@@ -1,0 +1,9 @@
+# Pinned: the saved models in model/ were pickled with this exact version
+scikit-learn==1.9.1
+
+streamlit>=1.50
+numpy>=2.0,<3
+pandas>=2.2,<4
+matplotlib>=3.8
+seaborn>=0.13
+joblib>=1.3
